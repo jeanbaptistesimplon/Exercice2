@@ -1,0 +1,38 @@
+.A{
+  height: 50px;
+  width: 300px;
+  /* pour masquer ce qui dépasse du bloc */
+  overflow: hidden;
+}
+
+.A:hover{
+  /* pour afficher en passant la souris */
+  overflow: visible;
+}
+
+/* Pour modifier la couleur de certaines puces sans changer celle du texte */
+.a{
+color:red;
+}
+.noir{
+  color:black;
+}
+
+th{
+  background-color: #554348;
+  color: white;
+}
+
+table{
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td{
+  border: 2px solid #554348;
+}
+
+/* pour colorer les lignes paires/impaires
+odd= impaire   even=paire */
+tr:nth-child(even) {background: #8C9A9E}
+tr:nth-child(odd) {background: #D4F5F5}
